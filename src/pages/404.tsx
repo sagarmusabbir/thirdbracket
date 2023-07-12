@@ -13,7 +13,7 @@ const Custom404: NextPage = () => {
 						<Heading2 text={page404.title} isDangerouslySet />
 					</HeadingWrapper>
 					<Paragraph text={page404.text} size="m" />
-					<Button text={page404.button.text} href={page404.button.link} />
+					<Button text={page404.button.text} href={page404.button.target} />
 				</Section>
 			</LayoutContainer>
 		</Layout>
